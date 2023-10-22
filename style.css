@@ -289,6 +289,8 @@ a:hover {
     font-size: 11px;
 }
 
+
+
 .navbar {
     margin-bottom: 0;
     z-index: 1;
@@ -364,6 +366,24 @@ a:hover {
     z-index: 2;
 }
 
+blockquote {
+    border-left: none;
+    font-size: 2rem;
+    line-height: 3rem;
+    font-style: italic;
+	
+}
+
+blockquote::before {
+    font-size: 2rem;
+}
+
+
+
+cite {
+	line-height: 3;
+	text-align: left;
+}
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -684,7 +704,23 @@ a {
 p {
     font-size: 12px;
 }
+blockquote {
+    border-left: none;
+    font-size: 2rem;
+    line-height: 3rem;
+    font-style: italic;
+	
+}
 
+.review-text {
+    font-size: 1.5rem;
+}
+
+
+cite {
+	line-height: 3;
+	text-align: left;
+}
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
