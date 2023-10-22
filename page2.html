@@ -29,7 +29,9 @@
 		<script src="./js/bootstrap.js"></script>
 		<script src="./js/blocs.js"></script>
 		<script src="./js/jquery.touchSwipe.js"></script>
-		<script src="./js/gmaps.js"></script>
+	
+        <script src="./js/formHandler.js"></script>
+        <script src="./js/jqBootstrapValidation.js"></script>
 		
 		<title>GoMikeDesigns | Freelance Atlanta Web Designer</title>
 
@@ -122,6 +124,8 @@
 -->
 							<form
 								id="form_1"
+                                action="#"
+                                method="POST"
 								novalidate
 								success-msg="Your message has been sent."
 								fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!"
@@ -129,16 +133,19 @@
 								<div class="form-group">
 									<label for="name"> Name </label>
 									<input
+                                    
 										id="name"
-										class="form-control"
+                                        name="name"
+										class="form-control form_1__field"
 										required
 									/>
 								</div>
 								<div class="form-group">
 									<label for="email"> Email </label>
 									<input
+                                    name="email"
 										id="email"
-										class="form-control"
+										class="form-control form_1__field"
 										type="email"
 										required
 									/>
@@ -146,8 +153,8 @@
 								<div class="form-group">
 									<label for="input_504"> How did you find me? </label>
 									<input
-										class="form-control"
-										type="email"
+										class="form-control form_1__field"
+										type="text"
 										required
 										id="input_504"
 									/>
@@ -160,7 +167,8 @@
 										have over your current website)<br /> </label
 									><textarea
 										id="message"
-										class="form-control"
+                                        name="message"
+										class="form-control form_1__field"
 										rows="4"
 										cols="50"
 										required
@@ -196,9 +204,7 @@
 			<!-- bloc-7 END -->
 
 			<!-- ScrollToTop Button -->
-			<!--
-	TODO: LINK INVISIBLE, UPDATE COLOR/SIZE
--->
+		
 			<a
 				class="bloc-button btn btn-d scrollToTop"
 				onclick="scrollToTarget('1')"
@@ -208,10 +214,7 @@
 
 			<!-- Footer - bloc-8 -->
 
-			<!--
-	TODO: CHECK FONT CONTRAST
--->
-<div class="bloc bgc-dark-slate-blue d-bloc" id="bloc-8">
+	<div class="bloc bgc-dark-slate-blue d-bloc" id="bloc-8">
     <div class="container bloc-sm">
         <div class="row">
             <div class="col-sm-12">
