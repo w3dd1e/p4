@@ -389,6 +389,10 @@ cite {
 .subheading {
     font-size: 3rem;
 }
+
+.sr-only {
+    visibility: hidden;
+}
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -812,6 +816,7 @@ h4 {
     font-size: 15px;
     font-weight: 700;
     text-transform: uppercase;
+    color: #3b3a3a;
 }
 
 .bgc-white {
@@ -883,6 +888,7 @@ h4 {
 
 .img-desc {
     font-size: 18px;
+    color: #282828;
 }
 
 @media (max-width: 1024px) {
