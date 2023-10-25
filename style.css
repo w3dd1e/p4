@@ -283,7 +283,16 @@ a:hover {
 }
 
 .service-text {
-    font-size: 11px;
+    font-size: 14px;
+}
+
+.work-text {
+    font-size: 14px;
+}
+
+.bloc-5-text {
+    font-size: 24px;
+    color: white;
 }
 
 .navbar {
@@ -375,6 +384,10 @@ blockquote::before {
 cite {
     line-height: 3;
     text-align: left;
+}
+
+.subheading {
+    font-size: 3rem;
 }
 @media (min-width: 768px) {
     .site-navigation {
@@ -690,7 +703,7 @@ a {
 }
 
 p {
-    font-size: 12px;
+    font-size: 16px;
 }
 blockquote {
     border-left: none;
@@ -732,7 +745,7 @@ cite {
     max-width: 400px;
     margin: auto auto auto auto;
 }
-social-container {
+.social-container {
     display: flex;
     justify-content: space-between;
 }
@@ -865,7 +878,11 @@ h4 {
 }
 
 .section-heading {
-    font-size: 32px;
+    font-size: 24px;
+}
+
+.img-desc {
+    font-size: 18px;
 }
 
 @media (max-width: 1024px) {
