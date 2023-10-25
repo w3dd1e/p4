@@ -10,7 +10,6 @@ body {
 a,
 button {
     transition: all 0.3s ease-in-out;
-    outline: none !important;
 }
 
 a:hover {
@@ -24,8 +23,6 @@ a:hover {
     bottom: 0;
     width: 100%;
     z-index: 100000;
-
-    /* TODO: FIND PAGE LOADING SPINNER? */
     background: #ffffff url("img/pageload-spinner.gif") no-repeat center center;
 }
 
@@ -289,8 +286,6 @@ a:hover {
     font-size: 11px;
 }
 
-
-
 .navbar {
     margin-bottom: 0;
     z-index: 1;
@@ -371,18 +366,15 @@ blockquote {
     font-size: 2rem;
     line-height: 3rem;
     font-style: italic;
-	
 }
 
 blockquote::before {
     font-size: 2rem;
 }
 
-
-
 cite {
-	line-height: 3;
-	text-align: left;
+    line-height: 3;
+    text-align: left;
 }
 @media (min-width: 768px) {
     .site-navigation {
@@ -480,10 +472,6 @@ nav .caret {
 .btn-d:focus {
     color: #fff;
     background: rgba(0, 0, 0, 0.3);
-}
-
-button {
-    outline: none !important;
 }
 
 .btn-rd {
@@ -709,19 +697,16 @@ blockquote {
     font-size: 2rem;
     line-height: 3rem;
     font-style: italic;
-	
 }
 
 .review-text {
     font-size: 1.5rem;
     color: #383838;
-
 }
 
-
 cite {
-	line-height: 3;
-	text-align: left;
+    line-height: 3;
+    text-align: left;
     color: #383838;
 }
 .tight-width-whitespace {
@@ -746,6 +731,10 @@ cite {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+}
+social-container {
+    display: flex;
+    justify-content: space-between;
 }
 
 h2 {
@@ -875,7 +864,7 @@ h4 {
     background-image: url("img/atlanta%20made%20sign%20orange.jpg");
 }
 
-.section-heading    {
+.section-heading {
     font-size: 32px;
 }
 
