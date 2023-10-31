@@ -55,22 +55,6 @@ a:hover {
     padding: 20px 50px;
 }
 
-.bg-center,
-.bg-l-edge,
-.bg-r-edge,
-.bg-t-edge,
-.bg-b-edge,
-.bg-tl-edge,
-.bg-bl-edge,
-.bg-tr-edge,
-.bg-br-edge,
-.bg-repeat {
-    -webkit-background-size: auto !important;
-    -moz-background-size: auto !important;
-    -o-background-size: auto !important;
-    background-size: auto !important;
-}
-
 .bg-repeat {
     background: repeat;
 }
@@ -881,14 +865,19 @@ h4 {
 @media (max-width: 800px) {
     .bg-atlanta-20made-20sign {
         background-image: url("img/atlanta.webp");
+        background-size: cover;
+        background-position: center;
     }
 }
+
 .bg-atlanta-20made-20sign-20orange {
     background-image: url("img/atlanta-orange.webp");
 }
 @media (max-width: 800px) {
     .bg-atlanta-20made-20sign-20orange {
         background-image: url("img/atlanta-orange-1080.webp");
+        background-size: cover;
+        background-position: center;
     }
 }
 
