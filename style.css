@@ -878,8 +878,18 @@ h4 {
     background-image: url("img/atlanta.webp");
 }
 
+@media (max-width: 800px) {
+    .bg-atlanta-20made-20sign {
+        background-image: url("img/atlanta.webp");
+    }
+}
 .bg-atlanta-20made-20sign-20orange {
     background-image: url("img/atlanta-orange.webp");
+}
+@media (max-width: 800px) {
+    .bg-atlanta-20made-20sign-20orange {
+        background-image: url("img/atlanta-orange-1080.webp");
+    }
 }
 
 .section-heading {
