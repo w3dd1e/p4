@@ -7,6 +7,8 @@
 			name="keywords"
 			content="seo, google, website, internet, web design, design agency, design agency, design agency, design agency, design agency, design agency, logo design atlanta"
 		/>
+		<!--Title and meta description is what a search engine will display to user -->
+		<title>GoMikeDesigns | Freelance Atlanta Web Designer</title>
 		<meta
 			name="description"
 			content="I'm Mike and your should hire me to build your website"
@@ -15,6 +17,7 @@
 			name="viewport"
 			content="width=device-width, initial-scale=1.0, viewport-fit=cover"
 		/>
+		<!--This preload will speed up page load on mobile-->
 		<link
 			rel="preload"
 			href="img/atlanta.webp"
@@ -32,16 +35,17 @@
 		<script src="./js/blocs.min.js" defer="defer"></script>
 		<script src="./js/jquery.touchSwipe.min.js" defer="defer"></script>
 
-		<title>GoMikeDesigns | Freelance Atlanta Web Designer</title>
-
 		<!-- Analytics -->
 
 		<!-- Analytics END -->
 	</head>
 	<body>
 		<!-- Main container -->
+		<!--Use semantic html in body when available for SEO and a11y-->
+
 		<div class="page-container">
 			<!-- bloc-0 -->
+
 			<header class="bloc bgc-white l-bloc" id="bloc-0">
 				<div class="container bloc-sm">
 					<nav class="navbar row">
@@ -128,6 +132,7 @@
 					<div class="container bloc-md">
 						<div class="row">
 							<div class="col-sm-12 text-center">
+								<!--Using short headings is easier for screenreaders-->
 								<h2 class="subheading">My Services</h2>
 								<p class="section-heading">
 									I create websites and design graphics that
@@ -265,6 +270,7 @@
 					<div class="container bloc-lg">
 						<div class="row">
 							<div class="col-sm-12 text-center">
+								<!--Use semantic html when available for SEO and a11y-->
 								<h2 class="subheading">My Work</h2>
 								<p class="section-heading">
 									Websites I've designed and developed for
@@ -274,6 +280,7 @@
 							</div>
 						</div>
 						<div class="row tight-width-whitespace portfolio-row">
+							<!--Images replaced with .webp for better page load, may not work on Internet Explorer, solution would be to use <picture> and srcset fallbacks-->
 							<div class="col-sm-6">
 								<a
 									href="#"
@@ -424,7 +431,7 @@
 			</main>
 			<!-- Footer - bloc-8 -->
 
-			<div class="bloc bgc-dark-slate-blue d-bloc" id="bloc-8">
+			<footer class="bloc bgc-dark-slate-blue d-bloc" id="bloc-8">
 				<div class="container bloc-sm">
 					<div class="row">
 						<div class="col-sm-12">
@@ -485,7 +492,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</footer>
 			<!-- Footer - bloc-8 END -->
 		</div>
 		<!-- Main container END -->
